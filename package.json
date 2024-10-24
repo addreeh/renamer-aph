@@ -1,12 +1,16 @@
 {
-  "name": "nextjs",
+  "name": "renamer-aph",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:worker": "cloudflare",
+    "dev:worker": "wrangler dev --port 8771",
+    "preview:worker": "npm run build:worker && npm run dev:worker",
+    "deploy:worker": "npm run build:worker && wrangler deploy"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
@@ -39,8 +43,10 @@
     "vaul": "^1.1.0"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^0.2.1",
     "@types/node": "22.7.9",
-    "ts-standard": "^12.0.2"
+    "ts-standard": "^12.0.2",
+    "wrangler": "^3.83.0"
   },
   "eslintConfig": {
     "parserOptions": {

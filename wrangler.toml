@@ -1,0 +1,8 @@
+main = ".worker-next/index.mjs"
+name = "rename-aph"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+experimental_assets = { directory = ".worker-next/assets", binding = "ASSETS" }
+[[kv_namespaces]]
+binding = "NEXT_CACHE_WORKERS_KV"
+id = "c6796c0f99ac46fe882d51411da6e21c"
