@@ -43,10 +43,8 @@
     "vaul": "^1.1.0"
   },
   "devDependencies": {
-    "@opennextjs/cloudflare": "^0.2.1",
     "@types/node": "22.7.9",
-    "ts-standard": "^12.0.2",
-    "wrangler": "^3.83.0"
+    "ts-standard": "^12.0.2"
   },
   "eslintConfig": {
     "parserOptions": {
