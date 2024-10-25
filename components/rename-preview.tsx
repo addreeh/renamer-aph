@@ -30,7 +30,7 @@ export function RenamePreview ({
   }
 
   return (
-    <ScrollArea className='h-64 rounded-md border'>
+    <ScrollArea className='rounded-md border'>
       <Table>
         <TableHeader>
           <TableRow>

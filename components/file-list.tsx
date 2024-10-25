@@ -38,7 +38,7 @@ export function FileList ({
         <Textarea
           id='files'
           placeholder='Enter one filename per line...'
-          className='min-h-[200px] font-mono text-sm'
+          className='font-mono text-sm'
           value={files.join('\n')}
           onChange={(e) => onChange(e.target.value.split('\n').filter(Boolean))}
         />
