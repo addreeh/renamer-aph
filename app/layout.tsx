@@ -30,6 +30,11 @@ export default function RootLayout ({
 }): JSX.Element {
   return (
     <html lang='es' suppressHydrationWarning>
+      <head>
+        <link rel='icon' type='image/png' href='/favicon-48x48.png' sizes='48x48' />
+        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+        <link rel='shortcut icon' href='/favicon.ico' />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
