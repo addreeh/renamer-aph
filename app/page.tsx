@@ -22,9 +22,7 @@ export default function Home (): JSX.Element {
   return (
     <div className='min-h-screen bg-background'>
       <div className='fixed inset-0'>
-        {/* Grid background */}
         <div className='absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] dark:opacity-100 opacity-50' />
-        {/* Gradient overlay */}
         <div className='absolute inset-0'>
           <div
             className='absolute left-1/2 top-0 -translate-x-1/2'
@@ -37,7 +35,7 @@ export default function Home (): JSX.Element {
         </div>
       </div>
 
-      <div className='relative min-h-screen flex flex-col items-center px-6'>
+      <div className='relative min-h-screen flex flex-col items-center p-6'>
         <div className='w-full max-w-4xl'>
           <header className='flex items-center justify-between py-6 shrink-0'>
             <div className='flex items-center gap-2'>
@@ -54,7 +52,7 @@ export default function Home (): JSX.Element {
 
           <div className='overflow-hidden my-auto'>
             <div className='h-full grid gap-6 md:grid-cols-2'>
-              <Card className='flex flex-col bg-background/80 backdrop-blur-sm border-border/50'>
+              <Card className='flex flex-col bg-background/80 backdrop-blur-sm border-border/50 max-h-[40rem] min-h-[40rem]'>
                 <CardHeader>
                   <CardTitle className='flex items-center gap-2'>
                     <FileText className='h-5 w-5' />
@@ -89,7 +87,7 @@ export default function Home (): JSX.Element {
                 </CardContent>
               </Card>
 
-              <div className='flex flex-col gap-6'>
+              <div className='flex flex-col gap-6 max-h-[40rem] min-h-[40rem]'>
                 <Card className='flex-1 bg-background/80 backdrop-blur-sm border-border/50'>
                   <CardHeader>
                     <CardTitle className='flex items-center gap-2'>
