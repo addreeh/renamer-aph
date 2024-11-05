@@ -52,7 +52,7 @@ export default function Home (): JSX.Element {
 
           <div className='overflow-hidden my-auto'>
             <div className='h-full grid gap-6 md:grid-cols-2'>
-              <Card className='flex flex-col bg-background/80 backdrop-blur-sm border-border/50 max-h-[40rem] min-h-[40rem]'>
+              <Card className='flex flex-col bg-background/80 backdrop-blur-sm border-border/50 max-h-[46rem] min-h-[46rem]'>
                 <CardHeader>
                   <CardTitle className='flex items-center gap-2'>
                     <FileText className='h-5 w-5' />
@@ -87,8 +87,8 @@ export default function Home (): JSX.Element {
                 </CardContent>
               </Card>
 
-              <div className='flex flex-col gap-6 max-h-[40rem] min-h-[40rem]'>
-                <Card className='flex-1 bg-background/80 backdrop-blur-sm border-border/50'>
+              <div className='flex flex-col gap-2 md:max-h-[46rem] md:min-h-[46rem]'>
+                <Card className='flex-1 bg-background/80 backdrop-blur-sm border-border/50 h-[23rem]'>
                   <CardHeader>
                     <CardTitle className='flex items-center gap-2'>
                       <FileText className='h-5 w-5' />
@@ -105,7 +105,7 @@ export default function Home (): JSX.Element {
                   </CardContent>
                 </Card>
 
-                <Card className='shrink-0 bg-background/80 backdrop-blur-sm border-border/50'>
+                <Card className='shrink-0 bg-background/80 backdrop-blur-sm border-border/50 h-[23rem]'>
                   <CardContent className='pt-6'>
                     <SystemCommands
                       files={fileList}

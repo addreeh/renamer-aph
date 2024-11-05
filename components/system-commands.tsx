@@ -104,7 +104,7 @@ export function SystemCommands ({
           </div>
 
           <TabsContent value='preview' className='mt-0'>
-            <ScrollArea className='h-[200px] rounded-md border bg-muted p-4'>
+            <ScrollArea className='h-32 rounded-md border bg-muted p-4'>
               <pre className='font-mono text-sm'>
                 {getScriptContent(true)}
               </pre>
@@ -121,7 +121,7 @@ export function SystemCommands ({
           </TabsContent>
 
           <TabsContent value='rename' className='mt-0'>
-            <ScrollArea className='h-[200px] rounded-md border bg-muted p-4'>
+            <ScrollArea className='h-[150px] rounded-md border bg-muted p-4'>
               <pre className='font-mono text-sm'>
                 {getScriptContent(false)}
               </pre>

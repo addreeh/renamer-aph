@@ -30,8 +30,8 @@ export function RenamePreview ({
   }
 
   return (
-    <ScrollArea className='rounded-md border'>
-      <Table>
+    <ScrollArea className='rounded-md border h-64'>
+      <Table className='w-full h-full'>
         <TableHeader>
           <TableRow>
             <TableHead className='w-12'>#</TableHead>
@@ -39,7 +39,7 @@ export function RenamePreview ({
             <TableHead>New Filename</TableHead>
           </TableRow>
         </TableHeader>
-        <TableBody>
+        <TableBody className='overflow-y-auto'>
           {files.map((file, index) => (
             <TableRow key={index}>
               <TableCell className='font-mono'>{index + 1}</TableCell>
