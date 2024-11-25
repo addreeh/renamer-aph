@@ -18,7 +18,6 @@ A modern web application built with Next.js that simplifies the process of renam
 - React
 - TypeScript
 - Tailwind CSS
-- File System API
 
 ## Getting Started
 
