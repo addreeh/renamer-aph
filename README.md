@@ -1,5 +1,4 @@
-# 📁 EpisodeRenamer
-
+# 📁 RenamerAPH
 A modern web application built with Next.js that simplifies the process of renaming TV show episode files. Simply paste your file names, set the season number, and get properly formatted episode names instantly.
 
 ## Features
